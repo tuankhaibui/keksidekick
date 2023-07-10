@@ -1,0 +1,17 @@
+###### Requirements without Version Specifiers ######
+jupyterlab
+notebook
+
+tqdm
+immutabledict
+
+numba
+numpy
+pandas
+matplotlib
+
+iminuit
+scipy
+jacobi
+uproot
+
