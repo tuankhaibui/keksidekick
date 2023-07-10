@@ -10,3 +10,4 @@ and install basic packages in py_requirements.txt
 git clone git@github.com:tuankhaibui/keksidekick.git
 
 2. Run keksetup.sh
+sh keksetup.sh
