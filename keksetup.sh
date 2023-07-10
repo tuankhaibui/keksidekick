@@ -32,7 +32,8 @@ function PrepareScript () {
     echo -e "if [ -z $(which pip) ]; then\n\tpython -m ensurepip --upgrade\nfi"
     echo "pip install --upgrade pip"
 
-    
+    echo "# Install requirements packages for further analysis"
+    echo "pip install -r ./py_requirements.txt"
 }
 
 function PrintUsage () {
@@ -60,6 +61,7 @@ fi
 script=./.python_init.sh
 PrepareScript $pyversion > $script
 scp $script ${kekuser}@${hostname}:~
+scp py_requirements.txt ${kekuser}@${hostname}:~/.py_requirements.txt
 cat $script
 
 : '
