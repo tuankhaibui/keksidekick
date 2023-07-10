@@ -6,8 +6,8 @@ with GNU GCC/G++ 7.5.0 initilized
 and install basic packages in py_requirements.txt
 
 
-1. Clone this repository 
+1. Clone this repository: 
 git clone git@github.com:tuankhaibui/keksidekick.git
 
-2. Run keksetup.sh
+2. Run keksetup.sh:
 sh keksetup.sh
